@@ -337,6 +337,7 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top:50px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1119,6 +1120,7 @@ section {
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+  margin-top: 35px;
 }
 
 #footer h3 {
