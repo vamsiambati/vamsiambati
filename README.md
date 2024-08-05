@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="200" src="https://vamsiambati.com/assets/img/cv.jpg"  />
+  <img height="200" src="https://cloud.appwrite.io/v1/storage/buckets/public/files/66b0f84c00220372fe85/view?project=6601936fa10ca8d54468&mode=admin"  />
 </div>
 
 ###
