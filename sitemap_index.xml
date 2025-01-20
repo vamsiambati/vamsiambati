@@ -2,25 +2,25 @@
 <url>
 <loc>https://www.vamsiambati.com/</loc>
 <lastmod>2025-01-18T07:49:26+00:00</lastmod>
-<changefreq>0.8</changefreq>
-<priority> 1 </priority>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
 </url>
 <url>
 <loc>https://www.vamsiambati.com/#about</loc>
 <lastmod>2023-02-19T07:49:26+00:00</lastmod>
-<changefreq>always</changefreq>
-<priority> 0.8 </priority>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
 </url>
 <url>
 <loc>https://www.vamsiambati.com/#resume</loc>
 <lastmod>2023-02-19T07:49:26+00:00</lastmod>
-<changefreq>always</changefreq>
-<priority> 0.8 </priority>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
 </url>
 <url>
 <loc>https://www.vamsiambati.com/#contact</loc>
 <lastmod>2023-02-19T07:49:26+00:00</lastmod>
-<changefreq>always</changefreq>
-<priority> 0.8 </priority>
+<changefreq>daily</changefreq>
+<priority>0.9</priority>
 </url>
 </urlset>
