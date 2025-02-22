@@ -1,1 +1,4 @@
 Sitemap: https://www.vamsiambati.com/sitemap_index.xml
+
+User-agent: GPTBot
+Disallow: /
