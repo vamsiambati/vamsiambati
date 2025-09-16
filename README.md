@@ -34,7 +34,7 @@
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/vamsiambati/count.svg?"  />
+  <img src="https://komarev.com/ghpvc/?username=vamsiambati&label=Profile%20views&color=0e75b6&style=flat"  />
 </div>
 
 ###
