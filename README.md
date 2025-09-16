@@ -1,6 +1,11 @@
 <div align="center">
   <h1 align="center">Hi 👋, I'm Vamsi Ambati</h1>
   <h3 align="center">Senior Software Engineer @ FedEx</h3>
+  
+🔭 I’m currently working on **Personal Home Assistant** <br/>
+🌱 I’m currently learning **Agentic AI, React** <br/>
+💬 Ask me about **UI, MEAN Stack, Angular, Home Assistant** <br/>
+📫 Reach me at **vamsi@vamsiambati.com**
 </div>
 
 ###
