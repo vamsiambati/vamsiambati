@@ -1,11 +1,12 @@
 <div align="center">
-  <img height="200" src="https://cloud.appwrite.io/v1/storage/buckets/public/files/66b0f84c00220372fe85/view?project=6601936fa10ca8d54468&mode=admin"  />
+  <h1 align="center">Hi 👋, I'm Vamsi Ambati</h1>
+  <h3 align="center">Senior Software Engineer @ FedEx</h3>
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vamsiambati&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=vamsiambati&show_icons=true&locale=en&theme=dracula" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vamsiambati&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
