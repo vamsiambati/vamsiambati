@@ -7,9 +7,9 @@
   <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <title>Vamsi Ambati — Software Engineer</title>
-  <meta name="description" content="Software Engineer with 8+ years of experience building scalable web applications. Skilled in Angular, Node.js, Azure & Power Platform.">
-  <meta name="keywords" content="Vamsi Ambati, Software Engineer, Angular, Node.js, Azure, Full Stack Developer">
+  <title>Vamsi Ambati — Senior Software Engineer</title>
+  <meta name="description" content="Senior Software Engineer architecting enterprise-grade web platforms, AI-driven solutions & cloud-native systems. Currently at FedEx.">
+  <meta name="keywords" content="Vamsi Ambati, Senior Software Engineer, Angular, Node.js, Azure, AI, Full Stack Architect, FedEx">
   <meta name="author" content="Vamsi Ambati">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favico/favicon-32x32.png">
@@ -25,7 +25,18 @@
   <!-- Navigation -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo">VA</a>
+      <a href="#hero" class="nav-logo" aria-label="Home">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="34" height="34" rx="8" stroke="url(#logo-grad)" stroke-width="1.5" fill="none"/>
+          <text x="18" y="23.5" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-weight="600" font-size="14" fill="url(#logo-grad)">VA</text>
+          <defs>
+            <linearGradient id="logo-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#6366f1"/>
+              <stop offset="100%" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
@@ -43,6 +54,7 @@
 
   <!-- Hero -->
   <section id="hero" class="hero">
+    <div class="hero-grid"></div>
     <div class="container">
       <p class="hero-greeting">Hi, I'm</p>
       <h1 class="hero-name">Vamsi Ambati</h1>
@@ -50,8 +62,8 @@
         <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
       </div>
       <p class="hero-description">
-        Software Engineer with 8+ years of experience building scalable web applications.<br>
-        Currently engineering e-commerce solutions at <strong>FedEx</strong>.
+        Experienced engineer architecting enterprise platforms, AI-powered solutions &amp; cloud-native systems<br>
+        that serve millions of users. Currently leading engineering at <strong>FedEx</strong>.
       </p>
       <div class="hero-links">
         <a href="https://www.linkedin.com/in/vamsiambati" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -78,17 +90,20 @@
   <!-- About -->
   <section id="about" class="section">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
+      <h2 class="section-title" data-num="01.">About Me</h2>
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a Software Engineer based in <strong>Hyderabad, India</strong>, with a passion for building 
-            clean, performant, and scalable web applications. With 8+ years in the industry, I've worked 
-            across the full stack — from crafting pixel-perfect UIs to designing robust backend architectures.
+            I'm a <strong>Senior Software Engineer</strong> based in Hyderabad, India, specializing in
+            building high-impact, enterprise-scale web platforms. Across my career, I've led end-to-end 
+            delivery of products across e-commerce, logistics, consulting &amp; financial services — 
+            driving measurable outcomes from architecture through deployment.
           </p>
           <p>
-            I hold a <strong>B.Tech in Electronics & Communication Engineering</strong> from KL University 
-            and have earned multiple Microsoft Azure and IBM certifications along the way.
+            My expertise spans <strong>Angular, Node.js, Azure, AI/GenAI integrations</strong>, and the 
+            <strong>Microsoft Power Platform</strong>. I hold multiple Azure &amp; IBM certifications and 
+            recently completed an <strong>AI &amp; GenAI program from IIT Madras</strong>. I thrive at the 
+            intersection of engineering excellence and emerging technology.
           </p>
           <div class="about-details">
             <div class="about-detail">
@@ -115,15 +130,15 @@
             <span class="stat-label">Years Experience</span>
           </div>
           <div class="stat-card">
-            <span class="stat-number">10+</span>
+            <span class="stat-number" data-count="10">0+</span>
             <span class="stat-label">Certifications</span>
           </div>
           <div class="stat-card">
-            <span class="stat-number">5+</span>
+            <span class="stat-number" data-count="5">0+</span>
             <span class="stat-label">Companies</span>
           </div>
           <div class="stat-card">
-            <span class="stat-number">3</span>
+            <span class="stat-number" data-count="3">0</span>
             <span class="stat-label">Azure Certs</span>
           </div>
         </div>
@@ -134,7 +149,7 @@
   <!-- Experience -->
   <section id="experience" class="section section-alt">
     <div class="container">
-      <h2 class="section-title">Experience</h2>
+      <h2 class="section-title" data-num="02.">Experience</h2>
       <div class="timeline">
 
         <div class="timeline-item">
@@ -275,7 +290,7 @@
   <!-- Skills -->
   <section id="skills" class="section">
     <div class="container">
-      <h2 class="section-title">Skills</h2>
+      <h2 class="section-title" data-num="03.">Skills</h2>
       <div class="skills-grid">
         <div class="skill-category">
           <h3>Frontend</h3>
@@ -308,6 +323,13 @@
           </div>
         </div>
         <div class="skill-category">
+          <h3>AI & Agents</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Google ADK</span>
+            <span class="skill-tag">Copilot Studio</span>
+          </div>
+        </div>
+        <div class="skill-category">
           <h3>Tools & Platforms</h3>
           <div class="skill-tags">
             <span class="skill-tag">Git</span>
@@ -323,7 +345,7 @@
   <!-- Certifications -->
   <section id="certifications" class="section section-alt">
     <div class="container">
-      <h2 class="section-title">Certifications</h2>
+      <h2 class="section-title" data-num="04.">Certifications</h2>
       <div class="cert-grid">
         <div class="cert-card cert-card-featured">
           <img src="assets/img/fedex.png" alt="IIT Madras x FedEx SMART" loading="lazy">
@@ -377,7 +399,7 @@
   <!-- Projects -->
   <section id="projects" class="section">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
+      <h2 class="section-title" data-num="05.">Projects</h2>
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-card-header">
@@ -425,7 +447,7 @@
   <!-- Achievements -->
   <section id="achievements" class="section section-alt">
     <div class="container">
-      <h2 class="section-title">Achievements</h2>
+      <h2 class="section-title" data-num="06.">Achievements</h2>
       <div class="achievements-list">
         <div class="achievement-item">
           <span class="achievement-icon">📰</span>
@@ -476,7 +498,7 @@
   <!-- Contact -->
   <section id="contact" class="section">
     <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
+      <h2 class="section-title" data-num="07.">Get In Touch</h2>
       <p class="contact-intro">
         Have a question or want to work together? Feel free to reach out.
       </p>
@@ -523,7 +545,7 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
           </a>
         </div>
-        <p class="footer-copy">&copy; 2024 Vamsi Ambati</p>
+        <p class="footer-copy">&copy; 2026 Vamsi Ambati</p>
       </div>
     </div>
   </footer>
