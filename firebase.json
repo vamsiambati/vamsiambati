@@ -1,12 +1,36 @@
 {
   "hosting": {
-    "public": "/",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
     "rewrites": [
+      {
+        "source": "**/wp-admin{,/**}",
+        "destination": "/404.html"
+      },
+      {
+        "source": "**/wp-login.php",
+        "destination": "/404.html"
+      },
+      {
+        "source": "**/xmlrpc.php",
+        "destination": "/404.html"
+      },
+      {
+        "source": "**/wp-content{,/**}",
+        "destination": "/404.html"
+      },
+      {
+        "source": "**/wp-includes{,/**}",
+        "destination": "/404.html"
+      },
+      {
+        "source": "**/my-account{,/**}",
+        "destination": "/404.html"
+      },
       {
         "source": "**",
         "destination": "/index.html"
