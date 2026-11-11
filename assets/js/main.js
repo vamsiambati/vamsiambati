@@ -4,10 +4,9 @@
 
   // --- Typing animation ---
   const phrases = [
-    'Senior Software Engineer',
-    'Full Stack Architect',
-    'AI & GenAI Engineer',
-    'Azure Certified Professional'
+    'Applied AI Engineer',
+    'Agentic AI Builder',
+    'Full Stack Architect'
   ];
 
   const typedEl = document.getElementById('typedText');
